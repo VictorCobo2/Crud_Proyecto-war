@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #10524B;
+    /*background: url(https://2.bp.blogspot.com/-Gi0cA9n_aKw/T2Yki1S2RTI/AAAAAAAAAJs/Gvo3P_ts5Fw/s1600/reticula-2.gif) repeat center center;*/
+    box-sizing: border-box;
+}
+
+.Contenedor {
+    background: #802D26;
+    width: 80%;
+    max-width: 1000px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+div {
+    margin: auto;
+}
+
+h2.titulo {
+    margin: 15px 10px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* MENU */
+.tablaPrincipal {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+ul {
+    box-sizing: border-box;
+}
+
+li {
+    float: left;
+    text-align: center;
+    background: gray;
+    list-style: none;
+}
+
+li a {
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: #0000FF;
+}
+
+li a:hover {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/* Contenido */
+div h1.titulo {
+    background: #6C615E;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 10px 150px;
+    font-family: Times new Roman;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+section {
+    margin: 0 10px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+  justify-content: center;
+    border-collapse: collapse;
+}
+
+thead {
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+thead th {
+    background: gray;
+    padding-left: 0px;
+    width: 145px;
+    float: left;
+    border: 1px solid black;
+}
+
+th.numeroT {
+    width: 25px;
+}
+
+th.nombreT {
+    width: 200px;
+}
+
+th.apellidoT {
+    width: 190px;
+}
+
+th.carreraT {
+    width: 200px;
+}
+
+th.correoT {
+    width: 200px;
+}
+
+th.semestreT {
+    width: 80px;
+}
+th.eliminarT {
+  width: 71px;
+}
+
+th.numeroT2 {
+    width: 25px;
+}
+
+th.nombreT2 {
+    width: 200px;
+}
+
+th.apellidoT2 {
+    width: 190px;
+}
+
+th.carreraT2 {
+    width: 200px;
+}
+
+th.correoT2 {
+    width: 200px;
+}
+
+th.semestreT2 {
+    width: 80px;
+}
+
+th.eliminarT2 {
+  width: 71px;
+}
+
+tbody {
+    display: flex;
+  
+    background: white;
+    justify-content: center;
+}
+
+tbody th {
+  justify-content: center;
+    width: 145px;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 0;
+}
+
+tbody tr:hover {
+    background: green;
+    color: black;
+}
+
+tbody th:hover {
+    background: black;
+    color: green;
+}
+
+form.camb {
+    text-align: center;
+}
+
+.boton {
+    border: none;
+    background: gray;
+}
+
+.boton:hover {
+    background: black;
+    color: white;
+    cursor: Pointer;
+}
+
+.mensaje {
+  margin: 20px 20px;
+  background: gray;
+  color: black;
+}
+
+/* Pie de Pagina */
+footer {
+    margin: 20px 0 auto;
+
+    background: #1a3e59;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: Verdana;
+    text-align: center;
+    color: #A6A7A8;
+    box-sizing: border-box;
+}

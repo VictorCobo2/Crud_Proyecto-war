@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #10524B;
+	/*background: url(https://2.bp.blogspot.com/-Gi0cA9n_aKw/T2Yki1S2RTI/AAAAAAAAAJs/Gvo3P_ts5Fw/s1600/reticula-2.gif) repeat center center;*/
+	box-sizing: border-box;
+}
+
+.contenedorPrincipal {
+	background: #802D26;
+	width: 80%;
+	max-width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+div {
+	margin: 0;
+}
+
+.titulo {
+	text-align: center;
+	color: black;
+	margin: 20px auto;
+	font-family: Times new Roman;
+	box-sizing: border-box;
+}
+
+.tablaPrincipal {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	box-sizing: border-box;
+}
+ul {
+	box-sizing: border-box;
+}
+
+li {
+	float: left;
+	text-align: center;
+	background: gray;
+	list-style: none;
+}
+
+li a {
+	padding: 10px 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: #1E40CA;
+}
+
+li a:hover {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+footer {
+	margin: 20px 0 auto;
+
+	background: #1a3e59;
+	padding: 20px;
+	text-align: center;
+}
+
+footer h2 {
+	font-family: Verdana;
+	text-align: center;
+	color: #A6A7A8;
+	box-sizing: border-box;
+}

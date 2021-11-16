@@ -1,0 +1,11 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #10524B;
+	/*background: url(https://2.bp.blogspot.com/-Gi0cA9n_aKw/T2Yki1S2RTI/AAAAAAAAAJs/Gvo3P_ts5Fw/s1600/reticula-2.gif) repeat center center;*/
+	box-sizing: border-box;
+}
+

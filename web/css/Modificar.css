@@ -1,0 +1,163 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #10524B;
+	/*background: url(https://2.bp.blogspot.com/-Gi0cA9n_aKw/T2Yki1S2RTI/AAAAAAAAAJs/Gvo3P_ts5Fw/s1600/reticula-2.gif) repeat center center;*/
+	box-sizing: border-box;
+}
+
+div {
+	margin: auto;
+}
+
+h2.titulo {
+    margin: 15px 10px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* MENU */
+.tablaPrincipal {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	box-sizing: border-box;
+}
+ul {
+	box-sizing: border-box;
+}
+
+li {
+	float: left;
+	text-align: center;
+	background: gray;
+	list-style: none;
+}
+
+li a {
+	padding: 10px 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: #1E40CA;
+}
+
+li a:hover {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+/* Contenido */
+div h1.titulo {
+	background: #000;
+	text-align: center;
+	color: white;
+	margin: 10px auto;
+	font-family: Times new Roman;
+	box-sizing: border-box;
+}
+
+section {
+	margin: 0 20px;
+}
+
+table {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	border-collapse: collapse;
+}
+
+/* Formulario */
+
+div{
+  display: block;
+  
+}
+
+form.formulario {
+	margin: 20px 250px;
+	background: gray;
+	padding-bottom: 20px;
+}
+
+form h3 {
+	text-align: left;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-family: Times New Roman;
+	size: 15px;
+}
+
+form div.contenido {
+	margin: 0 20px;
+	border: 2px solid #000;
+	text-align: left;
+	display: block;
+}
+
+form div div {
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
+}
+
+form div div label {
+	padding: 5px 10px;
+	text-align: left;
+	font-size: 20px;
+	display: inline-block;
+}
+
+form div div input {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 2px solid orange;
+}
+
+form div div input:hover {
+	border: 2px solid black;
+}
+
+
+form div div select {
+	display: inline-block;
+}
+
+form div div select:hover {
+	border: 2px solid red;
+}
+
+form div div textarea {
+	width: 75%;
+	height: 25%;
+}
+
+
+.mensaje {
+    border: 2px solid white;
+    text-align: center;
+    margin: 20px 20px;
+    background: gray;
+    color: black;
+}
+
+/* Pie de Pagina */
+footer {
+	margin: 20px 0 auto;
+
+	background: #1a3e59;
+	padding: 20px;
+	text-align: center;
+}
+
+footer h2 {
+	font-family: Verdana;
+	text-align: center;
+	color: #A6A7A8;
+	box-sizing: border-box;
+}
